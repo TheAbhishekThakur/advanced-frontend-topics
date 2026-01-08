@@ -9,6 +9,7 @@
 // import Accordion from "./accordion";
 // import Slider from "./slider";
 import DynamicForm from "./dynamic-form";
+import AutoSaveText from "./auto-save-text"
 
 const LLD = () => {
   return (
@@ -27,7 +28,8 @@ const LLD = () => {
           {/* <NestedCheckboxes /> */}
           {/* <Accordion /> */}
           {/* <Slider /> */}
-          <DynamicForm />
+          {/* <DynamicForm /> */}
+          <AutoSaveText />
         </div>
       </div>
     </>
