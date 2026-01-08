@@ -8,8 +8,9 @@
 // import NestedCheckboxes from "./nested-checkboxes";
 // import Accordion from "./accordion";
 // import Slider from "./slider";
-import DynamicForm from "./dynamic-form";
-import AutoSaveText from "./auto-save-text"
+// import DynamicForm from "./dynamic-form";
+// import AutoSaveText from "./auto-save-text";
+import PasswordStrengthChecker from "./password-strength-checker";
 
 const LLD = () => {
   return (
@@ -29,7 +30,8 @@ const LLD = () => {
           {/* <Accordion /> */}
           {/* <Slider /> */}
           {/* <DynamicForm /> */}
-          <AutoSaveText />
+          {/* <AutoSaveText /> */}
+          <PasswordStrengthChecker />
         </div>
       </div>
     </>
